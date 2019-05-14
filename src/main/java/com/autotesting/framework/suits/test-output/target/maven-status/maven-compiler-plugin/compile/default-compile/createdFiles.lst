@@ -1,0 +1,16 @@
+com\autotesting\framework\utils\PropertiesReader.class
+com\autotesting\framework\screens\IBCardsScreen.class
+com\autotesting\framework\screens\IBTransferScreen.class
+com\autotesting\framework\screens\IBLoginPageScreen.class
+com\autotesting\framework\suits\IBCardsTest.class
+com\autotesting\framework\suits\IBPaymentsTest.class
+com\autotesting\framework\utils\Photographer.class
+com\autotesting\framework\screens\IBPaymentsScreen.class
+com\autotesting\framework\utils\TestngEventsListener.class
+com\autotesting\framework\screens\IBBaseScreen.class
+com\autotesting\framework\suits\IBTransferTest.class
+com\autotesting\framework\screens\IBRegistrationScreen.class
+com\autotesting\framework\suits\IBLoginPageTest.class
+com\autotesting\framework\suits\IBRegistrationTest.class
+com\autotesting\framework\utils\WebDriverWrapper.class
+com\autotesting\framework\utils\WebDriverRunner.class

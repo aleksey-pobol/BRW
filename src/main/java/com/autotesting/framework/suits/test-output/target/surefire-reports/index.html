@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\Projects\IB\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">46 methods,  46 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="SearchTransferAccountToCard">SearchTransferAccountToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="SearchTransferCardToAccount">SearchTransferCardToAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="SearchTransferCardToCard">SearchTransferCardToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="authorizationTest">authorizationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithBlockedLoginTest">checkAuthorizationWithBlockedLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithCaptchaTest">checkAuthorizationWithCaptchaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithShortPasswordTest">checkAuthorizationWithShortPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithUncorrectLoginTest">checkAuthorizationWithUncorrectLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithUncorrectPasswordTest">checkAuthorizationWithUncorrectPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithUncorrectSessionKeyTest">checkAuthorizationWithUncorrectSessionKeyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithoutLoginTest">checkAuthorizationWithoutLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithoutPasswordTest">checkAuthorizationWithoutPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkAuthorizationWithoutSessionKeyTest">checkAuthorizationWithoutSessionKeyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBPaymentsTest" hash-for-method="checkCartPayments">checkCartPayments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBPaymentsTest" hash-for-method="checkCharityPayment">checkCharityPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBPaymentsTest" hash-for-method="checkContractPayment">checkContractPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBPaymentsTest" hash-for-method="checkERIPPayment">checkERIPPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkEditTransferAccountToCard">checkEditTransferAccountToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkEditTransferCardToAccount">checkEditTransferCardToAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkEditTransferCardToCard">checkEditTransferCardToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBPaymentsTest" hash-for-method="checkIdentifierERIPPayment">checkIdentifierERIPPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkInformationMessageTest">checkInformationMessageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBLoginPageTest" hash-for-method="checkMessageIsDisplayedAfterTheWrongInputCaptcha">checkMessageIsDisplayedAfterTheWrongInputCaptcha</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBCardsTest" hash-for-method="checkOnTheCard">checkOnTheCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBPaymentsTest" hash-for-method="checkOtherPaymentTest">checkOtherPaymentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBPaymentsTest" hash-for-method="checkPaymentFromTableMyPayments">checkPaymentFromTableMyPayments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBPaymentsTest" hash-for-method="checkReceiveCheck">checkReceiveCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBCardsTest" hash-for-method="checkRenameCard">checkRenameCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBCardsTest" hash-for-method="checkRequestOnTheCard">checkRequestOnTheCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkShowListTransfersAccountToCard">checkShowListTransfersAccountToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkShowListTransfersCardToAccount">checkShowListTransfersCardToAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkShowListTransfersCardToCard">checkShowListTransfersCardToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkTransferAccountToCard">checkTransferAccountToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBCardsTest" hash-for-method="checkTransferCardToAccount">checkTransferCardToAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkTransferCardToAccount">checkTransferCardToAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBTransferTest" hash-for-method="checkTransferCardToCard">checkTransferCardToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBCardsTest" hash-for-method="checkTransferCardToCard">checkTransferCardToCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBCardsTest" hash-for-method="checkUpdateListCard">checkUpdateListCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBRegistrationTest" hash-for-method="clickOnTheInputAgreeOnFirstStepOfRegistrationTest">clickOnTheInputAgreeOnFirstStepOfRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBRegistrationTest" hash-for-method="clickOnTheInputContinueOnTheFourStepOfRegistrationTest">clickOnTheInputContinueOnTheFourStepOfRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBRegistrationTest" hash-for-method="clickOnTheInputForMovingToTheThirdStepOfRegistrationTest">clickOnTheInputForMovingToTheThirdStepOfRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBRegistrationTest" hash-for-method="clickOnTheInputLoginOnThirdStepOfRegistrationTest">clickOnTheInputLoginOnThirdStepOfRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBRegistrationTest" hash-for-method="clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest">clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBRegistrationTest" hash-for-method="clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest">clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBRegistrationTest" hash-for-method="clickOnTheLinkReturnOnSecondStepOfRegistrationTest">clickOnTheLinkReturnOnSecondStepOfRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.autotesting.framework.suits.IBRegistrationTest" hash-for-method="clickOnTheLinkReturnOnThirdStepOfRegistrationTest">clickOnTheLinkReturnOnThirdStepOfRegistrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.autotesting.framework.suits.IBTransferTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTransferAccountToCard">
+                  </a> <!-- SearchTransferAccountToCard -->
+                  <span class="method-name">SearchTransferAccountToCard</span>
+                  <em>
+(Тестирование поиска перевода со счета на карту)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTransferCardToAccount">
+                  </a> <!-- SearchTransferCardToAccount -->
+                  <span class="method-name">SearchTransferCardToAccount</span>
+                  <em>
+(Тестирование поиска перевода с карты на счет)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTransferCardToCard">
+                  </a> <!-- SearchTransferCardToCard -->
+                  <span class="method-name">SearchTransferCardToCard</span>
+                  <em>
+(Тестирование поиска перевода с карты на карту)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEditTransferAccountToCard">
+                  </a> <!-- checkEditTransferAccountToCard -->
+                  <span class="method-name">checkEditTransferAccountToCard</span>
+                  <em>
+(Тестирование переименования перевода со счета на карту)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEditTransferCardToAccount">
+                  </a> <!-- checkEditTransferCardToAccount -->
+                  <span class="method-name">checkEditTransferCardToAccount</span>
+                  <em>
+(Тестирование переименования перевода с карты на счет)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEditTransferCardToCard">
+                  </a> <!-- checkEditTransferCardToCard -->
+                  <span class="method-name">checkEditTransferCardToCard</span>
+                  <em>
+(Тестирование переименования перевода с карты на карту)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkShowListTransfersAccountToCard">
+                  </a> <!-- checkShowListTransfersAccountToCard -->
+                  <span class="method-name">checkShowListTransfersAccountToCard</span>
+                  <em>
+(Тестирование получения чека в списке перевода со счета на карту)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkShowListTransfersCardToAccount">
+                  </a> <!-- checkShowListTransfersCardToAccount -->
+                  <span class="method-name">checkShowListTransfersCardToAccount</span>
+                  <em>
+(Тестирование получения чека в списке перевода с карты на счет)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkShowListTransfersCardToCard">
+                  </a> <!-- checkShowListTransfersCardToCard -->
+                  <span class="method-name">checkShowListTransfersCardToCard</span>
+                  <em>
+(Тестирование получения чека в списке переводов с карты на карту)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTransferAccountToCard">
+                  </a> <!-- checkTransferAccountToCard -->
+                  <span class="method-name">checkTransferAccountToCard</span>
+                  <em>
+(Тестирование перевода со счета на карту)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTransferCardToAccount">
+                  </a> <!-- checkTransferCardToAccount -->
+                  <span class="method-name">checkTransferCardToAccount</span>
+                  <em>
+(Тестирование перевода с карты на счет)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTransferCardToCard">
+                  </a> <!-- checkTransferCardToCard -->
+                  <span class="method-name">checkTransferCardToCard</span>
+                  <em>
+(Тестирование перевода с карты на карту)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.autotesting.framework.suits.IBPaymentsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCartPayments">
+                  </a> <!-- checkCartPayments -->
+                  <span class="method-name">checkCartPayments</span>
+                  <em>
+(Тестирование корзины платежей)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCharityPayment">
+                  </a> <!-- checkCharityPayment -->
+                  <span class="method-name">checkCharityPayment</span>
+                  <em>
+(Тестирование благотворительного платежа)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContractPayment">
+                  </a> <!-- checkContractPayment -->
+                  <span class="method-name">checkContractPayment</span>
+                  <em>
+(Тестирование договорного платежа)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkERIPPayment">
+                  </a> <!-- checkERIPPayment -->
+                  <span class="method-name">checkERIPPayment</span>
+                  <em>
+(Тестирование платежа ЕРИП. Velcom по номеру телефона)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkIdentifierERIPPayment">
+                  </a> <!-- checkIdentifierERIPPayment -->
+                  <span class="method-name">checkIdentifierERIPPayment</span>
+                  <em>
+(Тестирование платежа через идентификатор ЕРИП)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOtherPaymentTest">
+                  </a> <!-- checkOtherPaymentTest -->
+                  <span class="method-name">checkOtherPaymentTest</span>
+                  <em>
+(Тестирование произвольного платежа)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPaymentFromTableMyPayments">
+                  </a> <!-- checkPaymentFromTableMyPayments -->
+                  <span class="method-name">checkPaymentFromTableMyPayments</span>
+                  <em>
+(Тестирование платежа из таблицы 'Мои платежи')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkReceiveCheck">
+                  </a> <!-- checkReceiveCheck -->
+                  <span class="method-name">checkReceiveCheck</span>
+                  <em>
+(Тестирование получения чека из списка платежей)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.autotesting.framework.suits.IBCardsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOnTheCard">
+                  </a> <!-- checkOnTheCard -->
+                  <span class="method-name">checkOnTheCard</span>
+                  <em>
+(Получение выписки по текущей карте)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRenameCard">
+                  </a> <!-- checkRenameCard -->
+                  <span class="method-name">checkRenameCard</span>
+                  <em>
+(Тестирование переименования карты)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkRequestOnTheCard">
+                  </a> <!-- checkRequestOnTheCard -->
+                  <span class="method-name">checkRequestOnTheCard</span>
+                  <em>
+(Тестирование создания заявки на карточку и удаления её из списка карт)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTransferCardToAccount">
+                  </a> <!-- checkTransferCardToAccount -->
+                  <span class="method-name">checkTransferCardToAccount</span>
+                  <em>
+(Тестирование перевода с карты на счёт. Проверка на обязательность ввода капчи)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTransferCardToCard">
+                  </a> <!-- checkTransferCardToCard -->
+                  <span class="method-name">checkTransferCardToCard</span>
+                  <em>
+(Тестирование перевода с карты на карту. Проверка на обязательность ввода капчи)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUpdateListCard">
+                  </a> <!-- checkUpdateListCard -->
+                  <span class="method-name">checkUpdateListCard</span>
+                  <em>
+(Тестирование обновления списка карт)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.autotesting.framework.suits.IBRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnTheInputAgreeOnFirstStepOfRegistrationTest">
+                  </a> <!-- clickOnTheInputAgreeOnFirstStepOfRegistrationTest -->
+                  <span class="method-name">clickOnTheInputAgreeOnFirstStepOfRegistrationTest</span>
+                  <em>
+(Тестирование перехода на 2-ой шаг регистрации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnTheInputContinueOnTheFourStepOfRegistrationTest">
+                  </a> <!-- clickOnTheInputContinueOnTheFourStepOfRegistrationTest -->
+                  <span class="method-name">clickOnTheInputContinueOnTheFourStepOfRegistrationTest</span>
+                  <em>
+(Тестирование нажатия кнопки 'Продолжить' на 4-ем шаге регистрации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnTheInputForMovingToTheThirdStepOfRegistrationTest">
+                  </a> <!-- clickOnTheInputForMovingToTheThirdStepOfRegistrationTest -->
+                  <span class="method-name">clickOnTheInputForMovingToTheThirdStepOfRegistrationTest</span>
+                  <em>
+(Тестирование перехода со 2-ого шаге регистрации на 3 шаг регистрации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnTheInputLoginOnThirdStepOfRegistrationTest">
+                  </a> <!-- clickOnTheInputLoginOnThirdStepOfRegistrationTest -->
+                  <span class="method-name">clickOnTheInputLoginOnThirdStepOfRegistrationTest</span>
+                  <em>
+(Тестирование нажатия кнопки 'Войти в систему' на 3-ем шаге регистрации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest">
+                  </a> <!-- clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest -->
+                  <span class="method-name">clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest</span>
+                  <em>
+(Тестирование нажатия кнопки 'Зарегистрироваться' на 3-ем шаге регистрации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest">
+                  </a> <!-- clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest -->
+                  <span class="method-name">clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest</span>
+                  <em>
+(Тестирование возврата на главную страницу при нажатии кнопки 'Я не согласен (не согласна).' на первом шаге регистрации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnTheLinkReturnOnSecondStepOfRegistrationTest">
+                  </a> <!-- clickOnTheLinkReturnOnSecondStepOfRegistrationTest -->
+                  <span class="method-name">clickOnTheLinkReturnOnSecondStepOfRegistrationTest</span>
+                  <em>
+(Тестирование нажатия кнопки 'Вернуться' на 2-ом шаге регистрации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnTheLinkReturnOnThirdStepOfRegistrationTest">
+                  </a> <!-- clickOnTheLinkReturnOnThirdStepOfRegistrationTest -->
+                  <span class="method-name">clickOnTheLinkReturnOnThirdStepOfRegistrationTest</span>
+                  <em>
+(Тестирование нажатия кнопки 'Вернуться' на 3-ом шаге регистрации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.autotesting.framework.suits.IBLoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="authorizationTest">
+                  </a> <!-- authorizationTest -->
+                  <span class="method-name">authorizationTest</span>
+                  <em>
+(Тестирование авторизации corp.lwo.by)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithBlockedLoginTest">
+                  </a> <!-- checkAuthorizationWithBlockedLoginTest -->
+                  <span class="method-name">checkAuthorizationWithBlockedLoginTest</span>
+                  <em>
+(Тестирование авторизации с заблокированным логином)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithCaptchaTest">
+                  </a> <!-- checkAuthorizationWithCaptchaTest -->
+                  <span class="method-name">checkAuthorizationWithCaptchaTest</span>
+                  <em>
+(Тестирование появления капчи после ввода неверного пароля 3 раза)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithShortPasswordTest">
+                  </a> <!-- checkAuthorizationWithShortPasswordTest -->
+                  <span class="method-name">checkAuthorizationWithShortPasswordTest</span>
+                  <em>
+(Тестирование авторизации при вводе пароля длиной меньше 6 символов)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithUncorrectLoginTest">
+                  </a> <!-- checkAuthorizationWithUncorrectLoginTest -->
+                  <span class="method-name">checkAuthorizationWithUncorrectLoginTest</span>
+                  <em>
+(Тестирование авторизации при неправильном логине)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithUncorrectPasswordTest">
+                  </a> <!-- checkAuthorizationWithUncorrectPasswordTest -->
+                  <span class="method-name">checkAuthorizationWithUncorrectPasswordTest</span>
+                  <em>
+(Тестирование авторизации при неправильном пароле)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithUncorrectSessionKeyTest">
+                  </a> <!-- checkAuthorizationWithUncorrectSessionKeyTest -->
+                  <span class="method-name">checkAuthorizationWithUncorrectSessionKeyTest</span>
+                  <em>
+(Тестирование авторизации при вводе неверного сеансового ключа на втором шаге авторизации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithoutLoginTest">
+                  </a> <!-- checkAuthorizationWithoutLoginTest -->
+                  <span class="method-name">checkAuthorizationWithoutLoginTest</span>
+                  <em>
+(Тестирование авторизации. На первом шаге не вводим логин)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithoutPasswordTest">
+                  </a> <!-- checkAuthorizationWithoutPasswordTest -->
+                  <span class="method-name">checkAuthorizationWithoutPasswordTest</span>
+                  <em>
+(Тестирование авторизации. На первом шаге не вводим пароль)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAuthorizationWithoutSessionKeyTest">
+                  </a> <!-- checkAuthorizationWithoutSessionKeyTest -->
+                  <span class="method-name">checkAuthorizationWithoutSessionKeyTest</span>
+                  <em>
+(Тестирование авторизации без ввода сеансового ключа)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkInformationMessageTest">
+                  </a> <!-- checkInformationMessageTest -->
+                  <span class="method-name">checkInformationMessageTest</span>
+                  <em>
+(Тестирование отображения приветсвенного сообщения при авторизации)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMessageIsDisplayedAfterTheWrongInputCaptcha">
+                  </a> <!-- checkMessageIsDisplayedAfterTheWrongInputCaptcha -->
+                  <span class="method-name">checkMessageIsDisplayedAfterTheWrongInputCaptcha</span>
+                  <em>
+(Тестирование появления валидационного сообщения при неверно ведённой капче)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Projects\IB\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.autotesting.framework.utils.TestngEventsListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.autotesting.framework.suits.IBLoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.autotesting.framework.suits.IBRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;com.autotesting.framework.suits.IBPaymentsTest&quot;/&gt;
+      &lt;class name=&quot;com.autotesting.framework.suits.IBCardsTest&quot;/&gt;
+      &lt;class name=&quot;com.autotesting.framework.suits.IBTransferTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(46);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkTransferCardToCard')
+data.setCell(0, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SearchTransferAccountToCard')
+data.setCell(1, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'authorizationTest')
+data.setCell(2, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkERIPPayment')
+data.setCell(3, 2, 'com.autotesting.framework.suits.IBPaymentsTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickOnTheInputForMovingToTheThirdStepOfRegistrationTest')
+data.setCell(4, 2, 'com.autotesting.framework.suits.IBRegistrationTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest')
+data.setCell(5, 2, 'com.autotesting.framework.suits.IBRegistrationTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkTransferAccountToCard')
+data.setCell(6, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkAuthorizationWithoutLoginTest')
+data.setCell(7, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkCartPayments')
+data.setCell(8, 2, 'com.autotesting.framework.suits.IBPaymentsTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkOnTheCard')
+data.setCell(9, 2, 'com.autotesting.framework.suits.IBCardsTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkAuthorizationWithoutSessionKeyTest')
+data.setCell(10, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkTransferCardToAccount')
+data.setCell(11, 2, 'com.autotesting.framework.suits.IBCardsTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkReceiveCheck')
+data.setCell(12, 2, 'com.autotesting.framework.suits.IBPaymentsTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkInformationMessageTest')
+data.setCell(13, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkOtherPaymentTest')
+data.setCell(14, 2, 'com.autotesting.framework.suits.IBPaymentsTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkAuthorizationWithUncorrectSessionKeyTest')
+data.setCell(15, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickOnTheLinkReturnOnSecondStepOfRegistrationTest')
+data.setCell(16, 2, 'com.autotesting.framework.suits.IBRegistrationTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkContractPayment')
+data.setCell(17, 2, 'com.autotesting.framework.suits.IBPaymentsTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkAuthorizationWithUncorrectPasswordTest')
+data.setCell(18, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkAuthorizationWithShortPasswordTest')
+data.setCell(19, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'clickOnTheLinkReturnOnThirdStepOfRegistrationTest')
+data.setCell(20, 2, 'com.autotesting.framework.suits.IBRegistrationTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkPaymentFromTableMyPayments')
+data.setCell(21, 2, 'com.autotesting.framework.suits.IBPaymentsTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'SearchTransferCardToAccount')
+data.setCell(22, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkShowListTransfersCardToCard')
+data.setCell(23, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'clickOnTheInputAgreeOnFirstStepOfRegistrationTest')
+data.setCell(24, 2, 'com.autotesting.framework.suits.IBRegistrationTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'clickOnTheInputContinueOnTheFourStepOfRegistrationTest')
+data.setCell(25, 2, 'com.autotesting.framework.suits.IBRegistrationTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkTransferCardToAccount')
+data.setCell(26, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkCharityPayment')
+data.setCell(27, 2, 'com.autotesting.framework.suits.IBPaymentsTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkAuthorizationWithUncorrectLoginTest')
+data.setCell(28, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkUpdateListCard')
+data.setCell(29, 2, 'com.autotesting.framework.suits.IBCardsTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest')
+data.setCell(30, 2, 'com.autotesting.framework.suits.IBRegistrationTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkShowListTransfersAccountToCard')
+data.setCell(31, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkTransferCardToCard')
+data.setCell(32, 2, 'com.autotesting.framework.suits.IBCardsTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'SearchTransferCardToCard')
+data.setCell(33, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'clickOnTheInputLoginOnThirdStepOfRegistrationTest')
+data.setCell(34, 2, 'com.autotesting.framework.suits.IBRegistrationTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'checkRequestOnTheCard')
+data.setCell(35, 2, 'com.autotesting.framework.suits.IBCardsTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'checkEditTransferCardToAccount')
+data.setCell(36, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkAuthorizationWithBlockedLoginTest')
+data.setCell(37, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkIdentifierERIPPayment')
+data.setCell(38, 2, 'com.autotesting.framework.suits.IBPaymentsTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkShowListTransfersCardToAccount')
+data.setCell(39, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'checkMessageIsDisplayedAfterTheWrongInputCaptcha')
+data.setCell(40, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'checkRenameCard')
+data.setCell(41, 2, 'com.autotesting.framework.suits.IBCardsTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'checkEditTransferCardToCard')
+data.setCell(42, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'checkEditTransferAccountToCard')
+data.setCell(43, 2, 'com.autotesting.framework.suits.IBTransferTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'checkAuthorizationWithCaptchaTest')
+data.setCell(44, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'checkAuthorizationWithoutPasswordTest')
+data.setCell(45, 2, 'com.autotesting.framework.suits.IBLoginPageTest')
+data.setCell(45, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.autotesting.framework.suits.IBTransferTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkEditTransferAccountToAccount</span>
+                <br/>
+                <span class="ignored-method-name">SearchTransferAccountToAccount</span>
+                <br/>
+                <span class="ignored-method-name">checkShowListTransfersAccountToAccount</span>
+                <br/>
+                <span class="ignored-method-name">checkTransferAccountToAccount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.autotesting.framework.suits.IBPaymentsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkPaymentCredit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.autotesting.framework.suits.IBCardsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkUpdate3DSecure</span>
+                <br/>
+                <span class="ignored-method-name">checkShowTerms</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openPage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">authorizationTest</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithUncorrectLoginTest</span>
+                <span class="method-start">147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkInformationMessageTest</span>
+                <span class="method-start">147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithUncorrectPasswordTest</span>
+                <span class="method-start">148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithoutPasswordTest</span>
+                <span class="method-start">148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithBlockedLoginTest</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithShortPasswordTest</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithoutLoginTest</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithUncorrectSessionKeyTest</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithoutSessionKeyTest</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkAuthorizationWithCaptchaTest</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMessageIsDisplayedAfterTheWrongInputCaptcha</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openPage</span>
+                <span class="method-start">152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnTheInputAgreeOnFirstStepOfRegistrationTest</span>
+                <span class="method-start">167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnTheInputForMovingToTheThirdStepOfRegistrationTest</span>
+                <span class="method-start">167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnTheLinkReturnOnSecondStepOfRegistrationTest</span>
+                <span class="method-start">167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnTheInputLoginOnThirdStepOfRegistrationTest</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnTheLinkReturnOnThirdStepOfRegistrationTest</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBPaymentsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">authorization</span>
+                <span class="method-start">169 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickOnTheInputContinueOnTheFourStepOfRegistrationTest</span>
+                <span class="method-start">169 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBPaymentsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOtherPaymentTest</span>
+                <span class="method-start">184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkERIPPayment</span>
+                <span class="method-start">189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCharityPayment</span>
+                <span class="method-start">190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContractPayment</span>
+                <span class="method-start">190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkIdentifierERIPPayment</span>
+                <span class="method-start">190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCartPayments</span>
+                <span class="method-start">191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkPaymentFromTableMyPayments</span>
+                <span class="method-start">191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkReceiveCheck</span>
+                <span class="method-start">191 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBCardsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">authorization</span>
+                <span class="method-start">192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkTransferCardToCard</span>
+                <span class="method-start">207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOnTheCard</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTransferCardToAccount</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkUpdateListCard</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBTransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">authorization</span>
+                <span class="method-start">209 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBCardsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkRenameCard</span>
+                <span class="method-start">209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkRequestOnTheCard</span>
+                <span class="method-start">209 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.autotesting.framework.suits.IBTransferTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkEditTransferCardToCard</span>
+                <span class="method-start">223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkEditTransferAccountToCard</span>
+                <span class="method-start">224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkEditTransferCardToAccount</span>
+                <span class="method-start">224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTransferCardToCard</span>
+                <span class="method-start">224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkShowListTransfersCardToCard</span>
+                <span class="method-start">225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTransferAccountToCard</span>
+                <span class="method-start">225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTransferCardToAccount</span>
+                <span class="method-start">225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkShowListTransfersAccountToCard</span>
+                <span class="method-start">226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkShowListTransfersCardToAccount</span>
+                <span class="method-start">226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchTransferAccountToCard</span>
+                <span class="method-start">227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchTransferCardToAccount</span>
+                <span class="method-start">227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchTransferCardToCard</span>
+                <span class="method-start">227 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.autotesting.framework.utils.TestngEventsListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.autotesting.framework.suits.IBTransferTest">
+        <methods>
+          <include name="checkTransferCardToCard"/>
+          <include name="checkTransferCardToAccount"/>
+          <include name="SearchTransferCardToCard"/>
+          <include name="SearchTransferCardToAccount"/>
+          <include name="checkTransferAccountToCard"/>
+          <include name="checkShowListTransfersCardToAccount"/>
+          <include name="checkShowListTransfersCardToCard"/>
+          <include name="checkShowListTransfersAccountToCard"/>
+          <include name="checkEditTransferCardToCard"/>
+          <include name="authorization"/>
+          <include name="SearchTransferAccountToCard"/>
+          <include name="checkEditTransferCardToAccount"/>
+          <include name="checkEditTransferAccountToCard"/>
+        </methods>
+      </class> <!-- com.autotesting.framework.suits.IBTransferTest -->
+      <class name="com.autotesting.framework.suits.IBPaymentsTest">
+        <methods>
+          <include name="checkCartPayments"/>
+          <include name="authorization"/>
+          <include name="checkPaymentFromTableMyPayments"/>
+          <include name="checkIdentifierERIPPayment"/>
+          <include name="checkERIPPayment"/>
+          <include name="checkOtherPaymentTest"/>
+          <include name="checkCharityPayment"/>
+          <include name="checkContractPayment"/>
+          <include name="checkReceiveCheck"/>
+        </methods>
+      </class> <!-- com.autotesting.framework.suits.IBPaymentsTest -->
+      <class name="com.autotesting.framework.suits.IBCardsTest">
+        <methods>
+          <include name="authorization"/>
+          <include name="checkRenameCard"/>
+          <include name="checkTransferCardToCard"/>
+          <include name="checkOnTheCard"/>
+          <include name="checkUpdateListCard"/>
+          <include name="checkRequestOnTheCard"/>
+          <include name="checkTransferCardToAccount"/>
+        </methods>
+      </class> <!-- com.autotesting.framework.suits.IBCardsTest -->
+      <class name="com.autotesting.framework.suits.IBRegistrationTest">
+        <methods>
+          <include name="clickOnTheInputForMovingToTheThirdStepOfRegistrationTest"/>
+          <include name="openPage"/>
+          <include name="clickOnTheInputContinueOnTheFourStepOfRegistrationTest"/>
+          <include name="clickOnTheInputAgreeOnFirstStepOfRegistrationTest"/>
+          <include name="clickOnTheInputLoginOnThirdStepOfRegistrationTest"/>
+          <include name="clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest"/>
+          <include name="clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest"/>
+          <include name="clickOnTheLinkReturnOnThirdStepOfRegistrationTest"/>
+          <include name="clickOnTheLinkReturnOnSecondStepOfRegistrationTest"/>
+        </methods>
+      </class> <!-- com.autotesting.framework.suits.IBRegistrationTest -->
+      <class name="com.autotesting.framework.suits.IBLoginPageTest">
+        <methods>
+          <include name="checkInformationMessageTest"/>
+          <include name="checkMessageIsDisplayedAfterTheWrongInputCaptcha"/>
+          <include name="checkAuthorizationWithShortPasswordTest"/>
+          <include name="authorizationTest"/>
+          <include name="checkAuthorizationWithUncorrectPasswordTest"/>
+          <include name="openPage"/>
+          <include name="checkAuthorizationWithoutLoginTest"/>
+          <include name="checkAuthorizationWithUncorrectLoginTest"/>
+          <include name="checkAuthorizationWithCaptchaTest"/>
+          <include name="checkAuthorizationWithBlockedLoginTest"/>
+          <include name="checkAuthorizationWithoutPasswordTest"/>
+          <include name="checkAuthorizationWithoutSessionKeyTest"/>
+          <include name="checkAuthorizationWithUncorrectSessionKeyTest"/>
+        </methods>
+      </class> <!-- com.autotesting.framework.suits.IBLoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

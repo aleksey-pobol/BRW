@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 138, Failures: 5, Errors: 0, Skipped: 133, Time elapsed: 0.746 sec <<< FAILURE! - in TestSuite
+openPage(com.autotesting.framework.suits.IBLoginPageTest)  Time elapsed: 0.419 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBLoginPageTest.openPage(IBLoginPageTest.java:15)
+
+openPage(com.autotesting.framework.suits.IBRegistrationTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBRegistrationTest.openPage(IBRegistrationTest.java:18)
+
+authorization(com.autotesting.framework.suits.IBPaymentsTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBPaymentsTest.authorization(IBPaymentsTest.java:14)
+
+authorization(com.autotesting.framework.suits.IBCardsTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBCardsTest.authorization(IBCardsTest.java:14)
+
+authorization(com.autotesting.framework.suits.IBTransferTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBTransferTest.authorization(IBTransferTest.java:14)
+

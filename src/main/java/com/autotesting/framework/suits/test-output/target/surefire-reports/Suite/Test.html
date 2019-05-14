@@ -1,0 +1,965 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/46</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 08 04:23:13 BRT 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (237 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBLoginPageTest.openPage(IBLoginPageTest.java:15)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2095490653", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2095490653'><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBLoginPageTest.openPage(IBLoginPageTest.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Переход на главную страницу авторизации</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBRegistrationTest.openPage(IBRegistrationTest.java:18)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace246399377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace246399377'><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBRegistrationTest.openPage(IBRegistrationTest.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Авторизуемся в системе</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBPaymentsTest.authorization(IBPaymentsTest.java:14)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace422392391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace422392391'><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBPaymentsTest.authorization(IBPaymentsTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Авторизуемся в системе</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBCardsTest.authorization(IBCardsTest.java:14)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1971851377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1971851377'><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBCardsTest.authorization(IBCardsTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBTransferTest.authorization(IBTransferTest.java:14)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1682463303", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1682463303'><pre>java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBTransferTest.authorization(IBTransferTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.openPage()'><b>openPage</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Переход на главную страницу авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.authorization()'><b>authorization</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Авторизуемся в системе</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Выход из браузера. Закрытие драйвера</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.SearchTransferAccountToCard()'><b>SearchTransferAccountToCard</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование поиска перевода со счета на карту</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.SearchTransferCardToAccount()'><b>SearchTransferCardToAccount</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование поиска перевода с карты на счет</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.SearchTransferCardToCard()'><b>SearchTransferCardToCard</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование поиска перевода с карты на карту</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.authorizationTest()'><b>authorizationTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации corp.lwo.by</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithBlockedLoginTest()'><b>checkAuthorizationWithBlockedLoginTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации с заблокированным логином</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithCaptchaTest()'><b>checkAuthorizationWithCaptchaTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование появления капчи после ввода неверного пароля 3 раза</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithShortPasswordTest()'><b>checkAuthorizationWithShortPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации при вводе пароля длиной меньше 6 символов</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithUncorrectLoginTest()'><b>checkAuthorizationWithUncorrectLoginTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации при неправильном логине</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithUncorrectPasswordTest()'><b>checkAuthorizationWithUncorrectPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации при неправильном пароле</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithUncorrectSessionKeyTest()'><b>checkAuthorizationWithUncorrectSessionKeyTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации при вводе неверного сеансового ключа на втором шаге авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithoutLoginTest()'><b>checkAuthorizationWithoutLoginTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации. На первом шаге не вводим логин</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithoutPasswordTest()'><b>checkAuthorizationWithoutPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации. На первом шаге не вводим пароль</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkAuthorizationWithoutSessionKeyTest()'><b>checkAuthorizationWithoutSessionKeyTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование авторизации без ввода сеансового ключа</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.checkCartPayments()'><b>checkCartPayments</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Тестирование корзины платежей</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.checkCharityPayment()'><b>checkCharityPayment</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Тестирование благотворительного платежа</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.checkContractPayment()'><b>checkContractPayment</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Тестирование договорного платежа</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.checkERIPPayment()'><b>checkERIPPayment</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Тестирование платежа ЕРИП. Velcom по номеру телефона</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkEditTransferAccountToCard()'><b>checkEditTransferAccountToCard</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование переименования перевода со счета на карту</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkEditTransferCardToAccount()'><b>checkEditTransferCardToAccount</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование переименования перевода с карты на счет</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkEditTransferCardToCard()'><b>checkEditTransferCardToCard</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование переименования перевода с карты на карту</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.checkIdentifierERIPPayment()'><b>checkIdentifierERIPPayment</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Тестирование платежа через идентификатор ЕРИП</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkInformationMessageTest()'><b>checkInformationMessageTest</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование отображения приветсвенного сообщения при авторизации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginPageTest.checkMessageIsDisplayedAfterTheWrongInputCaptcha()'><b>checkMessageIsDisplayedAfterTheWrongInputCaptcha</b><br>Test class: com.autotesting.framework.suits.IBLoginPageTest<br>Test method: Тестирование появления валидационного сообщения при неверно ведённой капче</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginPageTest@57829d67</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.checkOnTheCard()'><b>checkOnTheCard</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Получение выписки по текущей карте</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.checkOtherPaymentTest()'><b>checkOtherPaymentTest</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Тестирование произвольного платежа</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.checkPaymentFromTableMyPayments()'><b>checkPaymentFromTableMyPayments</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Тестирование платежа из таблицы 'Мои платежи'</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBPaymentsTest.checkReceiveCheck()'><b>checkReceiveCheck</b><br>Test class: com.autotesting.framework.suits.IBPaymentsTest<br>Test method: Тестирование получения чека из списка платежей</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBPaymentsTest@340f438e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.checkRenameCard()'><b>checkRenameCard</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Тестирование переименования карты</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.checkRequestOnTheCard()'><b>checkRequestOnTheCard</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Тестирование создания заявки на карточку и удаления её из списка карт</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkShowListTransfersAccountToCard()'><b>checkShowListTransfersAccountToCard</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование получения чека в списке перевода со счета на карту</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkShowListTransfersCardToAccount()'><b>checkShowListTransfersCardToAccount</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование получения чека в списке перевода с карты на счет</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkShowListTransfersCardToCard()'><b>checkShowListTransfersCardToCard</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование получения чека в списке переводов с карты на карту</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkTransferAccountToCard()'><b>checkTransferAccountToCard</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование перевода со счета на карту</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.checkTransferCardToAccount()'><b>checkTransferCardToAccount</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Тестирование перевода с карты на счёт. Проверка на обязательность ввода капчи</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkTransferCardToAccount()'><b>checkTransferCardToAccount</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование перевода с карты на счет</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.checkTransferCardToCard()'><b>checkTransferCardToCard</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Тестирование перевода с карты на карту. Проверка на обязательность ввода капчи</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBTransferTest.checkTransferCardToCard()'><b>checkTransferCardToCard</b><br>Test class: com.autotesting.framework.suits.IBTransferTest<br>Test method: Тестирование перевода с карты на карту</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBTransferTest@2133c8f8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBCardsTest.checkUpdateListCard()'><b>checkUpdateListCard</b><br>Test class: com.autotesting.framework.suits.IBCardsTest<br>Test method: Тестирование обновления списка карт</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBCardsTest@30c7da1e</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.clickOnTheInputAgreeOnFirstStepOfRegistrationTest()'><b>clickOnTheInputAgreeOnFirstStepOfRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Тестирование перехода на 2-ой шаг регистрации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.clickOnTheInputContinueOnTheFourStepOfRegistrationTest()'><b>clickOnTheInputContinueOnTheFourStepOfRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Тестирование нажатия кнопки 'Продолжить' на 4-ем шаге регистрации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.clickOnTheInputForMovingToTheThirdStepOfRegistrationTest()'><b>clickOnTheInputForMovingToTheThirdStepOfRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Тестирование перехода со 2-ого шаге регистрации на 3 шаг регистрации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.clickOnTheInputLoginOnThirdStepOfRegistrationTest()'><b>clickOnTheInputLoginOnThirdStepOfRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Тестирование нажатия кнопки 'Войти в систему' на 3-ем шаге регистрации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest()'><b>clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Тестирование нажатия кнопки 'Зарегистрироваться' на 3-ем шаге регистрации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest()'><b>clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Тестирование возврата на главную страницу при нажатии кнопки 'Я не согласен (не согласна).' на первом шаге регистрации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.clickOnTheLinkReturnOnSecondStepOfRegistrationTest()'><b>clickOnTheLinkReturnOnSecondStepOfRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Тестирование нажатия кнопки 'Вернуться' на 2-ом шаге регистрации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBRegistrationTest.clickOnTheLinkReturnOnThirdStepOfRegistrationTest()'><b>clickOnTheLinkReturnOnThirdStepOfRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBRegistrationTest<br>Test method: Тестирование нажатия кнопки 'Вернуться' на 3-ом шаге регистрации</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBRegistrationTest@5b464ce8</td></tr>
+</table><p>
+</body>
+</html>

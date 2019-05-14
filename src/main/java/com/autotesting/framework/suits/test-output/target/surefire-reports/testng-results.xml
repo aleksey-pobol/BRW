@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="46" failed="0" total="46" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="237" started-at="2016-12-08T07:23:13Z" finished-at="2016-12-08T07:23:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="237" started-at="2016-12-08T07:23:13Z" finished-at="2016-12-08T07:23:13Z">
+      <class name="com.autotesting.framework.suits.IBLoginPageTest">
+        <test-method status="FAIL" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBLoginPageTest.openPage(IBLoginPageTest.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="authorizationTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="authorizationTest" duration-ms="1" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации corp.lwo.by" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorizationTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="checkInformationMessageTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkInformationMessageTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование отображения приветсвенного сообщения при авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInformationMessageTest -->
+        <test-method status="SKIP" signature="checkAuthorizationWithUncorrectLoginTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithUncorrectLoginTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации при неправильном логине" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithUncorrectLoginTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkAuthorizationWithUncorrectPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithUncorrectPasswordTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации при неправильном пароле" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithUncorrectPasswordTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="checkAuthorizationWithoutPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithoutPasswordTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации. На первом шаге не вводим пароль" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithoutPasswordTest -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkAuthorizationWithoutLoginTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithoutLoginTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации. На первом шаге не вводим логин" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithoutLoginTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="checkAuthorizationWithShortPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithShortPasswordTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации при вводе пароля длиной меньше 6 символов" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithShortPasswordTest -->
+        <test-method status="SKIP" signature="checkAuthorizationWithBlockedLoginTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithBlockedLoginTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации с заблокированным логином" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithBlockedLoginTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkAuthorizationWithUncorrectSessionKeyTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithUncorrectSessionKeyTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации при вводе неверного сеансового ключа на втором шаге авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithUncorrectSessionKeyTest -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkAuthorizationWithoutSessionKeyTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithoutSessionKeyTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование авторизации без ввода сеансового ключа" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithoutSessionKeyTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkMessageIsDisplayedAfterTheWrongInputCaptcha()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkMessageIsDisplayedAfterTheWrongInputCaptcha" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование появления валидационного сообщения при неверно ведённой капче" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMessageIsDisplayedAfterTheWrongInputCaptcha -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkAuthorizationWithCaptchaTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginPageTest@57829d67]" name="checkAuthorizationWithCaptchaTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование появления капчи после ввода неверного пароля 3 раза" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorizationWithCaptchaTest -->
+      </class> <!-- com.autotesting.framework.suits.IBLoginPageTest -->
+      <class name="com.autotesting.framework.suits.IBPaymentsTest">
+        <test-method status="FAIL" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBPaymentsTest.authorization(IBPaymentsTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkOtherPaymentTest()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="checkOtherPaymentTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование произвольного платежа" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOtherPaymentTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkERIPPayment()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="checkERIPPayment" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование платежа ЕРИП. Velcom по номеру телефона" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkERIPPayment -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkIdentifierERIPPayment()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="checkIdentifierERIPPayment" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование платежа через идентификатор ЕРИП" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIdentifierERIPPayment -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkCharityPayment()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="checkCharityPayment" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование благотворительного платежа" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCharityPayment -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkContractPayment()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="checkContractPayment" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование договорного платежа" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContractPayment -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkPaymentFromTableMyPayments()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="checkPaymentFromTableMyPayments" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование платежа из таблицы &#039;Мои платежи&#039;" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPaymentFromTableMyPayments -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkReceiveCheck()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="checkReceiveCheck" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование получения чека из списка платежей" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkReceiveCheck -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkCartPayments()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="checkCartPayments" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование корзины платежей" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartPayments -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBPaymentsTest@340f438e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+      </class> <!-- com.autotesting.framework.suits.IBPaymentsTest -->
+      <class name="com.autotesting.framework.suits.IBTransferTest">
+        <test-method status="FAIL" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBTransferTest.authorization(IBTransferTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkEditTransferCardToCard()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkEditTransferCardToCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование переименования перевода с карты на карту" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEditTransferCardToCard -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkEditTransferAccountToCard()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkEditTransferAccountToCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование переименования перевода со счета на карту" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEditTransferAccountToCard -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkTransferCardToCard()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkTransferCardToCard" duration-ms="1" started-at="2016-12-08T04:23:13Z" description="Тестирование перевода с карты на карту" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTransferCardToCard -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkEditTransferCardToAccount()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkEditTransferCardToAccount" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование переименования перевода с карты на счет" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEditTransferCardToAccount -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkShowListTransfersCardToCard()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkShowListTransfersCardToCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование получения чека в списке переводов с карты на карту" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkShowListTransfersCardToCard -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkTransferCardToAccount()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkTransferCardToAccount" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование перевода с карты на счет" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTransferCardToAccount -->
+        <test-method status="SKIP" signature="checkTransferAccountToCard()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkTransferAccountToCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование перевода со счета на карту" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTransferAccountToCard -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkShowListTransfersCardToAccount()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkShowListTransfersCardToAccount" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование получения чека в списке перевода с карты на счет" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkShowListTransfersCardToAccount -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkShowListTransfersAccountToCard()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="checkShowListTransfersAccountToCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование получения чека в списке перевода со счета на карту" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkShowListTransfersAccountToCard -->
+        <test-method status="SKIP" signature="SearchTransferCardToCard()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="SearchTransferCardToCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование поиска перевода с карты на карту" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTransferCardToCard -->
+        <test-method status="SKIP" signature="SearchTransferAccountToCard()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="SearchTransferAccountToCard" duration-ms="1" started-at="2016-12-08T04:23:13Z" description="Тестирование поиска перевода со счета на карту" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTransferAccountToCard -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="SearchTransferCardToAccount()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="SearchTransferCardToAccount" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование поиска перевода с карты на счет" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTransferCardToAccount -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBTransferTest@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.autotesting.framework.suits.IBTransferTest -->
+      <class name="com.autotesting.framework.suits.IBCardsTest">
+        <test-method status="FAIL" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBCardsTest.authorization(IBCardsTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkTransferCardToCard()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="checkTransferCardToCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование перевода с карты на карту. Проверка на обязательность ввода капчи" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTransferCardToCard -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkOnTheCard()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="checkOnTheCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Получение выписки по текущей карте" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnTheCard -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkTransferCardToAccount()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="checkTransferCardToAccount" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование перевода с карты на счёт. Проверка на обязательность ввода капчи" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTransferCardToAccount -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="checkUpdateListCard()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="checkUpdateListCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование обновления списка карт" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUpdateListCard -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkRequestOnTheCard()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="checkRequestOnTheCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование создания заявки на карточку и удаления её из списка карт" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRequestOnTheCard -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="authorization()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="authorization" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Авторизуемся в системе" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="SKIP" signature="checkRenameCard()[pri:0, instance:com.autotesting.framework.suits.IBCardsTest@30c7da1e]" name="checkRenameCard" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование переименования карты" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRenameCard -->
+      </class> <!-- com.autotesting.framework.suits.IBCardsTest -->
+      <class name="com.autotesting.framework.suits.IBRegistrationTest">
+        <test-method status="FAIL" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.autotesting.framework.screens.IBBaseScreen.openLoginPageScreen(IBBaseScreen.java:27)
+	at com.autotesting.framework.suits.IBRegistrationTest.openPage(IBRegistrationTest.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование возврата на главную страницу при нажатии кнопки &#039;Я не согласен (не согласна).&#039; на первом шаге регистрации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheLinkDisagreeOnFirstStepOfRegistrationTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="clickOnTheInputAgreeOnFirstStepOfRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="clickOnTheInputAgreeOnFirstStepOfRegistrationTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование перехода на 2-ой шаг регистрации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheInputAgreeOnFirstStepOfRegistrationTest -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="clickOnTheInputForMovingToTheThirdStepOfRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="clickOnTheInputForMovingToTheThirdStepOfRegistrationTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование перехода со 2-ого шаге регистрации на 3 шаг регистрации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheInputForMovingToTheThirdStepOfRegistrationTest -->
+        <test-method status="SKIP" signature="clickOnTheLinkReturnOnSecondStepOfRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="clickOnTheLinkReturnOnSecondStepOfRegistrationTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование нажатия кнопки &#039;Вернуться&#039; на 2-ом шаге регистрации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheLinkReturnOnSecondStepOfRegistrationTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="clickOnTheInputLoginOnThirdStepOfRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="clickOnTheInputLoginOnThirdStepOfRegistrationTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование нажатия кнопки &#039;Войти в систему&#039; на 3-ем шаге регистрации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheInputLoginOnThirdStepOfRegistrationTest -->
+        <test-method status="SKIP" signature="clickOnTheLinkReturnOnThirdStepOfRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="clickOnTheLinkReturnOnThirdStepOfRegistrationTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование нажатия кнопки &#039;Вернуться&#039; на 3-ом шаге регистрации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheLinkReturnOnThirdStepOfRegistrationTest -->
+        <test-method status="SKIP" signature="clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование нажатия кнопки &#039;Зарегистрироваться&#039; на 3-ем шаге регистрации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheInputRegistrationOnTheThirdStepOfRegistrationTest -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="clickOnTheInputContinueOnTheFourStepOfRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="clickOnTheInputContinueOnTheFourStepOfRegistrationTest" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Тестирование нажатия кнопки &#039;Продолжить&#039; на 4-ем шаге регистрации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTheInputContinueOnTheFourStepOfRegistrationTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="openPage" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Переход на главную страницу авторизации" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBRegistrationTest@5b464ce8]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-12-08T04:23:13Z" description="Выход из браузера. Закрытие драйвера" finished-at="2016-12-08T04:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.autotesting.framework.suits.IBRegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
